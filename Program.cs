@@ -28,6 +28,7 @@ namespace spaceships
       //  Shallow copy!!
       List<string> rockyPlanets = planetList.GetRange(0, 4);
 
+      planetList.Remove("Pluto");
 
       planetList.ForEach(planet => Console.WriteLine(planet));
       rockyPlanets.ForEach(planet => Console.WriteLine(planet));
