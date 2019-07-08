@@ -19,7 +19,9 @@ namespace spaceships
 
       planetList.AddRange(morePlanets);
 
+      
 
+      planetList.ForEach(planet => Console.WriteLine(planet));
     }
   }
 }
