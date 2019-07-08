@@ -23,6 +23,8 @@ namespace spaceships
 
       planetList.Insert(2, "Earth");
 
+      planetList.Add("Pluto");
+
       planetList.ForEach(planet => Console.WriteLine(planet));
     }
   }
