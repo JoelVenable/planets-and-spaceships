@@ -19,7 +19,9 @@ namespace spaceships
 
       planetList.AddRange(morePlanets);
 
-      
+      planetList.Insert(1, "Venus");
+
+      planetList.Insert(2, "Earth");
 
       planetList.ForEach(planet => Console.WriteLine(planet));
     }
